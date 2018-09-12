@@ -1,0 +1,57 @@
+{
+    "options": {
+        "domains": [],
+        "inputIDs": [],
+        "limit": []
+    },
+    "templates": [
+        {
+            "issuetype-field": "",
+            "name": "DEFAULT TEMPLATE",
+            "projects-field": "",
+            "text": ""
+        },
+        {
+            "issuetype-field": "Bug",
+            "name": "BUG TEMPLATE",
+            "projects-field": "",
+            "text": "*Summary*\n<TI>Enter summary of the problem here.</TI>\n\n*Steps to Reproduce*\n<TI>Enter detailed steps to reproduce here. More detail is better.</TI>\n\n*Expected Behaviour*\n<TI>Enter what should happen here.</TI>\n\n*Additional Details*\n<TI>Enter any other details such as examples, links to requirements, etc. Any criteria that might help with fixing the problem. Attach screenshots if possible. More detail is better.</TI>\n\n*Workaround*\n<TI>If there is a way to work around the problem, place that information here.</TI>"
+        },
+        {
+            "issuetype-field": "Story",
+            "name": "STORY TEMPLATE",
+            "projects-field": "",
+            "text": "*Story*\nAs a <type of user/persona>, I want <to perform some task>, so that I can <achieve some goal/benefit/value>.\n\n{panel:title=Acceptance Criteria|titleBGColor=#EEEEEE}\n(x) Enter the conditions of satisfaction here. That is, the conditions that will satisfy the user/persona that the goal/benefit/value has been achieved.\n\n----\n(x) Enter the conditions of satisfaction here. That is, the conditions that will satisfy the user/persona that the goal/benefit/value has been achieved.\n{panel}"
+        },
+        {
+            "issuetype-field": "Task",
+            "name": "TASK TEMPLATE",
+            "projects-field": "",
+            "text": ""
+        },
+        {
+            "issuetype-field": "Sub-task",
+            "name": "SUB TASK TEMPLATE",
+            "projects-field": "",
+            "text": ""
+        },
+        {
+            "issuetype-field": "New Feature",
+            "name": "NEW FEATURE TEMPLATE",
+            "projects-field": "",
+            "text": "*Summary*\n<TI>Enter a summary of the New Feature here.</TI>\n\n*Details*\n<TI>Enter any details, clarifications, answers to questions, or points about implementation here.</TI>\n\n*Additional Information*\n<TI>Enter any background or references such as Stack Overflow, MSDN, blogs, etc. that may help with developing the feature.</TI>"
+        },
+        {
+            "issuetype-field": "Improvement",
+            "name": "IMPROVEMENT TEMPLATE",
+            "projects-field": "",
+            "text": "*Summary*\n<TI>Enter a summary of the Improvement here.</TI>\n\n*Details*\n<TI>Enter any details, clarifications, answers to questions, or points about implementation here.</TI>\n\n*Additional Information*\n<TI>Enter any background or references such as Stack Overflow, MSDN, blogs, etc. that may help with developing the feature.</TI>"
+        },
+        {
+            "issuetype-field": "Epic",
+            "name": "EPIC TEMPLATE",
+            "projects-field": "",
+            "text": "*Epic*\nAs a <type of user/persona>, I want <to perform some task>, so that I can <achieve some goal/benefit/value>.\n\n*Details*\n<Enter any details, clarifications, answers to questions, and points about implementation here.>"
+        }
+    ]
+}
